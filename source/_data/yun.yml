@@ -1,0 +1,107 @@
+# Social Links.
+social:
+  - name: RSS
+    # set rss in your root config
+    # https://github.com/hexojs/hexo-generator-feed
+    link: /atom.xml # config.feed.path
+    icon: icon-rss-line
+    color: orange
+  - name: GitHub
+    link: https://github.com/YunYouJun
+    icon: icon-github-line
+    color: "#6e5494"
+  - name: E-Mail
+    link: 583783099@qq.com
+    icon: icon-mail-line
+    color: "#8E71C0"
+
+# main menu navigation
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  list:
+    - type: archives
+      path: /archives/
+      icon: icon-archive-line
+    - type: categories
+      path: /categories/
+      icon: icon-folder-2-line
+    - type: tags
+      path: /tags/
+      icon: icon-price-tag-3-line
+  custom:
+    title: 文档
+    path: https://yun.yunyoujun.cn
+    icon: icon-settings-line
+
+# UI
+banner:
+  enable: true
+  title: 兮兮的小破站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+# Reward (Donate)
+# If enable true, reward would be displayed in every posts and pages by default.
+# You can show or hide reward in a specific page throuth `reward: true | false` in Front Matter.
+reward:
+  enable: false
+  icon: icon-hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: QQ 支付
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+      color: "#12B7F5"
+      icon: icon-qq-line
+    - name: 微信支付
+      path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+    # - name: paypal
+    #   link: https://paypal.com
+    #   path: https://www.paypalobjects.com/images/shared/paypal-logo-129x32.svg
+    #   color: "#2D70B5"
+    #   icon: icon-paypal-line
+
+footer:
+  since: 2021
+
+  # Icon between year and copyright info.
+  icon:
+    # `heart` is recommended with animation in red (#ff0000).
+    name: icon-cloud-line
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#0078E7"
+
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: true
+
+  # Beian icp information for Chinese users. In China, every legal website should have a beian icp in website footer.
+  # https://beian.miit.gov.cn/
+  beian:
+    enable: false
+    # icp: 苏ICP备xxxxxxxx号
+
+  live_time:
+    enable: false
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2019-04-12T00:00:00"
+
+  # Any custom text can be defined here.
+  # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
