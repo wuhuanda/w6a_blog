@@ -105,3 +105,6 @@ footer:
 
   # Any custom text can be defined here.
   # custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
+
+comment:
+  enable: false
