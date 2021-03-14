@@ -102,4 +102,6 @@ theme: yun
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@www.clovemu.com:/var/repo/w6a_blog.git
+  branch: master
