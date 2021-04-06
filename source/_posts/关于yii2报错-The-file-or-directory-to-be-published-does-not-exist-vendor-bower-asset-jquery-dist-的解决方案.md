@@ -11,7 +11,7 @@ tags:
 
 # 话不多说，直接上错误截图！
 
-![](https://img.vim-cn.com/e6/53268a3bc9ed935c81d3377dc0c728aef7eff2.png)
+![](https://file.clovemu.com/img/53268a3bc9ed935c81d3377dc0c728aef7eff2.png?imgslim)
 
 # 分析
 
@@ -65,7 +65,7 @@ tags:
 ```
 
 3. 修改完之后 `composer update` 一下再重新 `php yii serve`，刷新一下浏览器页面看到以下界面就表示成功啦！
-![](https://img.vim-cn.com/fc/b0ca8ae82be691dbbc320108c8653fdedcac22.png)
+![](https://file.clovemu.com/img/b0ca8ae82be691dbbc320108c8653fdedcac22.png?imgslim)
 
 # 参考网址
 [composer论坛](https://forum.yiiframework.com/t/composer-2-invalidargumentexception-vendor-bower-asset-jquery-dist/131264/3)

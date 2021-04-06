@@ -24,7 +24,7 @@ Hexo 是基于 node.js 的，搭建起来也比较简单。接下来就跟着我
 node.js 下载地址：[node.js](https://nodejs.org/zh-cn/download/)
 
 2. 安装完成后，我们打开命令窗口，输入 `node -v`，如果返回下图所示，那么 node 就被完美安装成功啦~
-![](https://img.vim-cn.com/db/eaabfc9ee5afb240d5507e741a4c1c1db0487f.png)
+![](https://file.clovemu.com/img/20210406083941.png?imgslim)
 
 3. 接下来安装 Hexo
 ```bash
@@ -53,7 +53,7 @@ hexo clean g s
 > 具体的指令可以在[官方文档](https://hexo.io/zh-cn/docs/commands)中查询
 
 8. 打开浏览器，在地址栏输入 `localhost:4000` 就可以访问到刚搭建好的博客啦！
-![](https://img.vim-cn.com/83/dd45d4b7bf2a81a45113888222de0bf9b5b526.png)
+![](https://file.clovemu.com/img/20210406083958.png?imgslim)
 
 # 将博客公之于众
 
